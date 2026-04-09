@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class FileLineReader {
     public static void main(String[] args) {
-        String fileName = "../input.txt";
+        String fileName = "input.txt";
         
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String line;
